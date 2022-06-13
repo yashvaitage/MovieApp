@@ -1,0 +1,11 @@
+//
+//  Debug.xcconfig
+//  SampleProject
+//
+//  Created by shubham on 10/04/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_NAME = MVVMCA

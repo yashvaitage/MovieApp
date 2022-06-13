@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashBackground" translatesAutoresizingMaskIntoConstraints="NO" id="cqq-Qm-B5X" userLabel="petzone_launchscreen_background">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Petzone" translatesAutoresizingMaskIntoConstraints="NO" id="veU-ah-bhV">
+                                <rect key="frame" x="94" y="420.5" width="226" height="55"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="55.369999999999997" id="SJH-Ml-Gcg"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="cqq-Qm-B5X" secondAttribute="bottom" id="HhT-x0-912"/>
+                            <constraint firstItem="cqq-Qm-B5X" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Llo-7p-ItX"/>
+                            <constraint firstAttribute="trailing" secondItem="cqq-Qm-B5X" secondAttribute="trailing" id="lyN-Gn-WL3"/>
+                            <constraint firstItem="veU-ah-bhV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qa2-3n-cB5"/>
+                            <constraint firstItem="veU-ah-bhV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="tBh-XL-imZ"/>
+                            <constraint firstItem="cqq-Qm-B5X" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="yTT-Pd-OGQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="374.18478260869568"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Petzone" width="226" height="55.5"/>
+        <image name="SplashBackground" width="375" height="812"/>
+        <systemColor name="systemTealColor">
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
